@@ -8,4 +8,8 @@
             console.log("SE CLIKEO AQUI en mis trabajos");
             document.getElementById('Mis-trabajos').scrollIntoView({ behavior: 'smooth' });
         });
+        document.getElementById('seccionC').addEventListener('click', function () {
+            console.log("SE CLIKEO AQUI en mis trabajos");
+            document.getElementById('Contacto').scrollIntoView({ behavior: 'smooth' });
+        });
     });
